@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto" , Arial;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+} 
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    gap: 800px;
+    align-items: flex-start;
+    background-color: #1F2937;
+}
+
+.title-three {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
