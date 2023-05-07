@@ -7,11 +7,14 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto" , Arial;
+    margin: 0;
 }
 
-ul {
+ul,
+.text {
     list-style: none;
     font-size: 18px;
+    color: #e5e7eb;
 }
 
 a {
@@ -28,7 +31,7 @@ a {
 }
 
 .title-three {
-    font-size: 24px;
+    font-size: 38px;
     color: #f9faf8;
 }
 
@@ -37,3 +40,64 @@ a {
     gap: 20px;
 }
 
+.head {
+    font-weight: 900;
+    font-size: 58px;
+    color: #f9faf8;
+    margin: 0;
+}
+.upper-content {
+    background-color: #1F2937;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.left-side {
+    display: flex;
+
+}
+
+.image-1 {
+    max-width: 700px;
+    max-height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex: 1;
+    border: 4px solid hwb(206 10% 13% / 0.549);
+    border-radius: 15px;
+}
+
+.right-side {
+    display: flex;
+    max-width: 900px;
+    max-height: 200px;
+  
+    gap: 0;
+    flex-direction: column;
+}
+
+button,
+footer{
+    background-color: #3882f6;
+    color: #e5e7eb
+}
+
+.text {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.butt {
+    border: 1px #3882f6;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    max-width: 100px;
+    
+}
