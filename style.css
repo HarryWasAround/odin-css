@@ -102,7 +102,7 @@ footer{
 }
 
 .information {
-    margin: 200px 0px 300px 0px;
+    margin: 50px 0px 200px 0px;
 }
 
 .title {
@@ -124,9 +124,10 @@ footer{
 
 .info {
 text-align: center;
+
 }
 
-.imag {
+.imag{
     max-width:300px ;
     max-height: 300px;
     min-width: 300px;
@@ -134,3 +135,74 @@ text-align: center;
     border: 4px solid  rgba(10, 94, 229, 0.625);
     border-radius: 15px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.wise-words{
+    font-size: 70px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: center;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.kapoios{
+    align-self: flex-end;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.imag:hover{
+    opacity: .5;
+}
+
+.title-three:hover,
+a:hover{
+    opacity: .5;
+}
+
+.image-1:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    background-color: #3882f6;
+    padding: 50px 10px 50px 40px;
+    max-width: 900px;
+    border-radius:8px;
+    margin-left: 750px;
+    margin-right: 750px;
+    gap: 100px;
+}
+
+.words{
+    margin-right: 50px;
+    color: #e5e7eb;
+    font-size: larger;
+}
+
+.title-two{
+    font-weight: 600; 
+}
+
+.sign{
+    background-color: #3882f6;
+    border: #e5e7eb 2px solid;
+    padding: 4px 20px 5px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    max-width: 100px;
+}
+
